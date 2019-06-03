@@ -25,10 +25,44 @@ for(let index = 0; index<2; index = index + 1){//цикл
 	alert(index);
 }
 
-//получить то, что введено в <input>
+//получить то, что написано в <input>
 .value;
 
-if (   ==  ) {
-	alert(‘правильно’)
+
+
+if (   ==   ) {//условие
+	alert("правильно")
 } 
 
+
+let func = function(arg) { //функция с аргументом
+	alert(arg)
+}
+func(5000)
+
+
+let rand = Math.random()*5 //случайное число до 5
+let round = Math.round(rand) //округлить число 
+
+.length //количество элементов 
+
+
+//возвращение числа
+let x = function(){
+	return 17;
+}
+
+alert(x())
+
+
+//функция вызывается каждую секунду
+let x = function(){
+	alert("lol");
+}
+
+setInterval(x,1000)
+
+//создание div через javascript
+let elem = document.createElement("div")
+//поместить div в body
+document.body.appendChild(elem)
